@@ -80,3 +80,7 @@
 - [React Router](https://github.com/reactjs/react-router)
 - [Redux](https://github.com/reactjs/redux/tree/master/docs)
 - [Webpack](http://webpack.github.io/docs/)
+
+## 内部分享
+
+- [前端工程化](https://cloudinsight.github.io/bootcamp/2016-09-14-fed-engineering)
