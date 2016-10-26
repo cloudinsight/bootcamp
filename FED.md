@@ -36,6 +36,8 @@
 
 ### 分支管理规范
 
+- [分支管理](http://www.ruanyifeng.com/blog/2012/07/git.html)
+
 - dev
 - master
 - feature/*
@@ -72,12 +74,13 @@
 - Jenkins
 - NPM 私有库
 
+[更多](http://wiki.oneapm.me/pages/viewpage.action?pageId=7575054)
+
 ## 学习资料
 
 > 如果你对 Git, ES6, React 还不是特别熟悉，可以参考下面的学习资料
 
 - [Git](http://rogerdudler.github.io/git-guide/index.zh.html)
-- [分支管理](http://www.ruanyifeng.com/blog/2012/07/git.html)
 - [ES6 入门](http://es6.ruanyifeng.com/)
 - [React](https://facebook.github.io/react/docs/getting-started.html)
 - [12-Factor](https://12factor.net/zh_cn/)
