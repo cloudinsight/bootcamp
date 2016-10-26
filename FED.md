@@ -4,25 +4,24 @@
 
 通过训练营你能给够了解 CI 前端开发的特点、规范、技术栈，并且找到公司的内部资源，学习资料，文档等帮助。
 
-## 特点
-
-> 在这里我们只支持现代浏览器，我们的目标是打造世界上最棒的 SaaS 产品前端体验。
-
-|     IE       |    Chrome   |   Firefox    |   Safari   |
-|--------------|-------------|--------------|------------|
-|     11       |    ??       |      ??      |      ??    |
-
-**CI 前端的特点:**
+## CI 前端的特点
 
 - 严格分离
- - 前后端是完全分离的，各自独立部署
+ - 前后端完全分离的，各自独立部署
 - 组件化
  - 基于 `React` 的模块化开发
  - 使用 NPM 管理依赖
 - 自动化
  - 提倡 DevOps 文化，提高生产率
+- 支持现代浏览器 
 
-## 宣言
+> 在这里我们只支持现代浏览器，我们的目标是打造世界上最棒的 SaaS 产品前端体验。
+
+|     IE       |    Chrome   |   Firefox    |   Safari   |
+|--------------|-------------|--------------|------------|
+|     11       |    N - 1    |     N - 1    |    N - 1   |
+
+## CI 前端宣言
 
 > 从你提第一个 Pull Request 开始就代表你认同此宣言
 
@@ -48,14 +47,23 @@
 
 ### 代码风格规范
 
-[eslint-config-cloudinsight](https://github.com/cloudinsight/eslint-config-cloudinsight)
+我们使用 ESLint 检查代码风格，并借鉴了
 
-### 引入模块参考要素
+[eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+
+你的每一个提交都会经过持续集成的检查，如果有不符合规范的地方会收到告警邮件。
+每一个研发人员都有义务修复不符合规范的提交。
+
+### 引入模块规范
+
+综合参考这几点：
 
 - 在 Github 上 Star 数量，非常冷门的模块不予采用
 - 有没有活跃的 Maintainer ，一年以上没有代码更新的模块不予采用
 - Issues 是不是能够很快的解决，响应速度越快用起来越安心
 - 和 CI 项目里的其它模块是不是有冲突
+
+在此基础上，我们推荐**勤更新模块**。
 
 ## 公司的内部资源
 
@@ -72,6 +80,7 @@
 - [分支管理](http://www.ruanyifeng.com/blog/2012/07/git.html)
 - [ES6 入门](http://es6.ruanyifeng.com/)
 - [React](https://facebook.github.io/react/docs/getting-started.html)
+- [12-Factor](https://12factor.net/zh_cn/)
 
 ## 手册和文档
 
@@ -83,4 +92,8 @@
 
 ## 内部分享
 
-- [前端工程化](https://cloudinsight.github.io/bootcamp/2016-09-14-fed-engineering)
+- [OneAPM 前端分享会](http://wiki.oneapm.me/pages/viewpage.action?pageId=15151040)
+
+## 开发工具
+
+- [CI 前端调试插件](https://chrome.google.com/webstore/detail/cloudinsight-dev/bglckjbhffgndhlgbkbhhblpnhfapjpl)
