@@ -47,6 +47,13 @@
 - *必须* 写提交说明
 - 提交说明以提交的类型开头，FIX（修补），REFACTOR（重构），DOCS（文档）
 
+关于怎么写提交信息，可以参考这篇文章 [英文](http://chris.beams.io/posts/git-commit/)
+如果觉得文章太长，只需要记住下面这张图片
+
+![](./assets/commit_message.jpg)
+
+via [twitter](https://twitter.com/mislav/status/746289239457996800)
+
 ### 代码风格规范
 
 我们使用 ESLint 检查代码风格，并借鉴了
