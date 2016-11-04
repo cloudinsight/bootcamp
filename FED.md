@@ -10,9 +10,9 @@
  - 前后端完全分离的，各自独立部署
 - 组件化
  - 基于 `React` 的模块化开发
- - 使用 NPM 管理依赖
+ - 使用 `NPM` 管理依赖
 - 自动化
- - 提倡 DevOps 文化，提高生产率
+ - 提倡 `DevOps` 文化，提高生产率
 - 支持现代浏览器 
 
 > 在这里我们只支持现代浏览器，我们的目标是打造世界上最棒的 SaaS 产品前端体验。
@@ -38,13 +38,19 @@
 
 - [分支管理](http://www.ruanyifeng.com/blog/2012/07/git.html)
 
-- dev
-- master
-- feature/*
+![](./assets/branches.png)
+
+概括成几句话
+
+- 日常开发在 `dev` (Develop), 在这个分支上多多使用 `git rebase`
+- 新功能如果包含多个提交，提交到 `feature/CI-xxx` ，合并到 `dev` 后删除
+- 小版本的维护在 `release/x.x.x` 上
+- `master` 只能提交紧急的 `bug` 修复，并打上 `vx.x.x-hotfix-x` 的 `tag`
+- 新功能只有合并到 `dev` 分支, QA 才有义务去测试
 
 ### 代码提交规范
 
-- *必须* 写提交说明
+- **必须** 写提交说明
 - 提交说明以提交的类型开头，FIX（修补），REFACTOR（重构），DOCS（文档）
 
 关于怎么写提交信息，可以参考这篇文章 [英文](http://chris.beams.io/posts/git-commit/)
