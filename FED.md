@@ -86,7 +86,8 @@ via [twitter](https://twitter.com/mislav/status/746289239457996800)
 
 ## 任务分配
 
-各种 Issue 就是 CI 前端的任务（面向 Issue 开发），`JIRA`，`Github` 都是我们管理 Issue 的好地方。
+各种 Issue 就是 CI 前端的任务（面向 Issue 开发），`JIRA`，
+[`Github`](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Acloudinsight) 都是我们管理 Issue 的好地方。
 
 CI 前端倾向于以主动领取为主，分配为辅的策略。
 
